@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 export default function Profile() {
-  const [form, setForm] = useState({ name: 'Alex Freelancer', email: 'alex@studio.co', password: '' })
+  const [form, setForm] = useState({ name: 'Noor Freelancer', email: 'noor@studio.co', password: '' })
   function update(e) { setForm({ ...form, [e.target.name]: e.target.value }) }
   function submit(e) { e.preventDefault(); alert('Saved') }
   return (
